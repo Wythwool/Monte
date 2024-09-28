@@ -1,0 +1,223 @@
+/* Общие стили для всей страницы */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1c1c1c, #2b3e50);
+  color: white;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+/* Главное содержимое страницы (Hero) */
+.hero {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero .logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #ff9068, #fd746c);
+  transform: translateY(-5px);
+}
+
+/* Секция информации о команде */
+.team-info {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px 20px;
+  margin: 50px auto;
+  max-width: 900px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.team-info h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.info-box p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* Состав команды */
+.team-roster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #2b3e50, #1c1c1c);
+  border-top: 3px solid #0072ff;
+}
+
+.team-roster h3 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  color: #00c6ff;
+}
+
+/* Карточки игроков */
+.player-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.player-card:hover {
+  transform: translateY(-10px);
+}
+
+.player-card h4 {
+  font-size: 1.5rem;
+  color: #00c6ff;
+  margin-bottom: 15px;
+}
+
+.player-card p {
+  font-size: 1.1rem;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.steam-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0072ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.steam-link:hover {
+  background-color: #0057b8;
+  transform: translateY(-5px);
+}
+
+.steam-link i {
+  margin-right: 10px;
+}
+
+/* Стили для бокового меню */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  background-color: #1e1e2d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.rank {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.sidebar ul li {
+  width: 100%;
+}
+
+.sidebar ul li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.sidebar ul li a i {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.sidebar ul li a span {
+  font-size: 0.9rem;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  background-color: #0072ff;
+  color: white;
+}
+
+.content {
+  margin-left: 100px;
+  padding: 20px;
+}
+
+.content section {
+  padding: 50px;
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
