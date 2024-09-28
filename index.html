@@ -1,0 +1,232 @@
+<!-- Главное содержимое -->
+<header class="hero">
+  <div class="hero-content">
+    <img src="https://upload.wikimedia.org/wikipedia/uk/6/6e/Monte_logo.png" alt="Monte Logo" class="logo">
+    <h1>Команда Monte (CS2)</h1>
+    <p>Самая профессиональная команда в CS2 с опытом и победами. Присоединяйся к нашей победной серии!</p>
+    <a href="#team" class="cta-button">Узнать о составе</a>
+  </div>
+</header>
+
+<!-- Основная информация о команде -->
+<section class="team-info">
+  <h2>Информация о команде</h2>
+  <div class="info-box">
+    <p><strong>Организация:</strong> Monte</p>
+    <p><strong>Регион:</strong> 🇺🇦 Украина</p>
+    <p><strong>Дата основания:</strong> Август 17, 2024</p>
+    <p><strong>Призовые:</strong> $100,977</p>
+    <p><strong>Спонсоры:</strong> NON STOP</p>
+  </div>
+</section>
+
+<!-- Состав команды -->
+<section id="team" class="team-roster">
+  <h3>Состав команды Monte (CS2)</h3>
+
+  <!-- Игроки -->
+  <div class="player-card">
+    <h4>🇺🇦 Иван Варфоломеев (qq_GlaShyiz)</h4>
+    <p>Роль: Снайпер (MVP)</p>
+    <a href="https://steamcommunity.com/id/qq_glashayiz" target="_blank" class="steam-link">
+      <i class="fab fa-steam"></i> Профиль в Steam
+    </a>
+  </div>
+
+  <div class="player-card">
+    <h4>🇺🇦 Олексій Шевченко (Dreamlr4)</h4>
+    <p>Роль: Рифлер</p>
+    <a href="https://steamcommunity.com/id/dreamlr4" target="_blank" class="steam-link">
+      <i class="fab fa-steam"></i> Профиль в Steam
+    </a>
+  </div>
+
+  <div class="player-card">
+    <h4>🇺🇦 Максим Кіберчук (W0jiy)</h4>
+    <p>Роль: Рифлер</p>
+    <a href="https://steamcommunity.com/id/w0jiy" target="_blank" class="steam-link">
+      <i class="fab fa-steam"></i> Профиль в Steam
+    </a>
+  </div>
+
+  <div class="player-card">
+    <h4>🇺🇦 Микита Соколовський (Lockko)</h4>
+    <p>Роль: Снайпер</p>
+    <a href="https://steamcommunity.com/id/lockko" target="_blank" class="steam-link">
+      <i class="fab fa-steam"></i> Профиль в Steam
+    </a>
+  </div>
+
+  <div class="player-card">
+    <h4>🇺🇦 Роман Дорошенко (N1ghtHawk)</h4>
+    <p>Роль: Рифлер</p>
+    <a href="https://steamcommunity.com/id/n1ghthawk" target="_blank" class="steam-link">
+      <i class="fab fa-steam"></i> Профиль в Steam
+    </a>
+  </div>
+
+  <div class="player-card">
+    <h4>🇵🇱 Пётр Навроцкий (nawrot)</h4>
+    <p>Роль: Главный тренер</p>
+    <a href="https://steamcommunity.com/id/nawrot" target="_blank" class="steam-link">
+      <i class="fab fa-steam"></i> Профиль в Steam
+    </a>
+  </div>
+
+  <div class="player-card">
+    <h4>🇰🇿 Айдын Турлибеков (KrizzeN)</h4>
+    <p>Роль: Аналитик/Менеджер</p>
+    <a href="https://steamcommunity.com/id/krizzen" target="_blank" class="steam-link">
+      <i class="fab fa-steam"></i> Профиль в Steam
+    </a>
+  </div>
+</section>
+
+<!-- Подключаем Font Awesome для иконок -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monte Team</title>
+  <link rel="stylesheet" href="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous">
+  <style>
+    /* Основные стили для страницы */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f5;
+      color: #333;
+    }
+
+    /* Заголовок для лучших моментов */
+    h2 {
+      text-align: center;
+      color: #00aaff;
+      margin-bottom: 40px;
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      letter-spacing: 1px;
+    }
+
+    /* Карточки игроков */
+    .player {
+      background-color: #333;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      color: white;
+      position: relative;
+      transition: transform 0.5s ease;
+    }
+
+    .player h4 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #00aaff;
+    }
+
+    .player a {
+      display: inline-block;
+      margin-top: 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      background-color: #0072ff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .player a:hover {
+      background-color: #0057cc;
+    }
+
+    /* Текст-кнопка, по нажатию на который будет происходить анимация */
+    .clickable-text {
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: #00aaff;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    /* Скрытый блок для текста после анимации */
+    .moment-text {
+      display: none;
+      margin-top: 20px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    /* Анимация для подъёма карточки */
+    .player.active {
+      transform: translateY(-50px);
+    }
+
+    /* Анимация для отображения текста */
+    .moment-text.active {
+      display: block;
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Заголовок для секции лучших моментов -->
+  <h2>Лучший игрок команды</h2>
+
+  <!-- Карточка игрока с анимацией -->
+  <div class="player" id="player1">
+    <h4>🇺🇦 Иван Варфоломеев (qq_GlaShyiz)</h4>
+    <p>Роль: Снайпер (MVP)</p>
+    <a href="https://steamcommunity.com/id/glashyiz" target="_blank" class="steam-link">
+      <i class="fab fa-steam"></i> Профиль в Steam
+    </a>
+
+    <!-- Кликабельный текст для запуска анимации -->
+    <div class="clickable-text">Показать лучший момент</div>
+
+    <!-- Скрытый текст, который появляется после анимации -->
+    <div class="moment-text">
+      Desert Eagle 1 v 5 clutch.
+    </div>
+  </div>
+
+  <!-- Подключение Font Awesome для иконок -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- JS для анимации карточки и текста -->
+  <script>
+    document.querySelector('.clickable-text').addEventListener('click', function() {
+      const playerCard = document.getElementById('player1');
+      const momentText = playerCard.querySelector('.moment-text');
+      
+      // Анимация подъёма карточки
+      playerCard.classList.toggle('active');
+      
+      // Анимация появления текста
+      momentText.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
